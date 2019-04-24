@@ -1,0 +1,50 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+#preview {
+	width: 450px;
+	height: 450px;
+}
+.zoom {
+	position: relative;
+	width: 450px;
+	height: 450px;
+	float: left;
+}
+
+/*define styles of the lens*/
+.imgZoom {
+	z-index: 3;
+    position: absolute;
+    width: 303.75px;
+    height: 303.75px;
+    visibility: visible;
+    border: 1px dotted #ec8c00;
+    background: 50% top no-repeat #fff5b4;
+    opacity: 0.4;
+    -moz-opacity: 0.4;
+    filter: alpha(Opacity=40);
+    cursor: move;
+    top: 0px;
+    left: 0px;
+    display: none;
+}
+
+/*define styles of the output div*/
+.zoomBig{
+	float: left;
+	height: 540px;
+	width: 540px;
+    position: absolute;
+    left: 450px;
+    overflow: hidden;
+}
+.bigImg {
+	width: 800px;
+	height: 800px;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	display:none;
+}
