@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Demo_JavaScript_zoom image</title>
+	<link rel="stylesheet" type="text/css" href="css/zoomImg.css">
+</head>
+<body>
+	<div id="preview">
+		<div class="zoom">
+			<img src="img/santa_s.jpg" class="smallImg" >
+			<div class="imgZoom"></div>
+		</div>
+		<div class="zoomBig">
+			<img src="img/santa_b.jpg" class="bigImg">
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="js/zoomImg.js"></script>
+<script type="text/javascript">
+	var zoomIt = new setZoom({
+		container: "preview"
+	});
+</script>
+</html>
