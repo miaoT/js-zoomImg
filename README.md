@@ -67,6 +67,7 @@ While zooming, the ratio of zoom is based on the scale between the magnified ima
 	self.bigimg.style.left = -imgZoomX * (bigimgWidth/previewWidth) + "px";
 	self.bigimg.style.top = -imgZoomY * (bigimgHeight/previewHeight) + "px";
 ```
-
-	
+  
+### Demo
+[Check it in CodePen](https://codepen.io/miaoT/pen/LoOWpW "zoomImg.js")	
 	
